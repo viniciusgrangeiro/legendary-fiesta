@@ -8,7 +8,8 @@ function insertionSort(lista){
         while (analise > 0 && lista[analise].preco < lista[analise -1].preco){
             let itemAnalise = lista[analise]
             let itemAnterior = lista[analise - 1]
-
+        
+            // troca os livros de lugares
             lista[analise] = itemAnterior
             lista[analise - 1] = itemAnalise
 
